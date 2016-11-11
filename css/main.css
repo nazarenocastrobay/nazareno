@@ -205,6 +205,19 @@ header img{
 .logos img:hover{
 	filter: grayscale(0%);
 }
+/*---ambiciones---*/
+img[src*="php"]{
+	max-width: 10%;
+	display: block;
+	margin: 0 auto;
+	transition: filter .3s ease-in-out;
+	filter: grayscale(100%);
+
+}
+img[src*="php"]:hover{
+	filter: grayscale(0%);
+
+}
 /**contacto*/
 .contenido-quien a{
 	text-align: center;
@@ -743,6 +756,10 @@ footer ul a h2:hover{
 	.logos img[src*="html"]{
 		margin-left: 1em;
 	}
+	img[src*="php"]{
+	max-width: 30%;
+
+	}
 	/*-----WORK----*/
 	.row1,.row2{
 		flex-direction: column;
@@ -824,6 +841,14 @@ footer ul a h2:hover{
 	}
 
 	/*----about me-----*/
+	.contenido-quien,
+	.contenedor-treehouse{
+	width: 75%;
+	margin-top: 1em;
+	}
+	.contenido-quien p{
+	width: 95%;
+	}
 	#header img{
 		max-width: 25%;
 		right: 10%;
@@ -840,6 +865,10 @@ footer ul a h2:hover{
 	}
 	.logos img[src*="html"]{
 		margin-left: 0;
+	}
+	img[src*="php"]{
+	max-width: 15%;
+
 	}
 
 	/*----work----*/

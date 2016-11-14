@@ -220,11 +220,9 @@ img[src*="php"]:hover{
 }
 /**contacto*/
 .contenido-quien a{
-	text-align: center;
 	text-decoration: none;
-	font-family: 'Lovelo';
-	color: black;
-	border-bottom: 5px solid black;
+	color: #26A65B;
+	
 }
 .contenido-about a{
 	text-decoration: none;
